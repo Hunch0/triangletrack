@@ -10,11 +10,11 @@ var first=parseInt(edges[0]);
 var second=parseInt(edges[1]);
 var third=parseInt(edges[2]);
 
-// /* console.log(sides); */
-// if(first>=second+third||second>=first+third||third>=first+third|| (first===0||second===0||third===0)){
-// output.innerHTML=("Cannot form a triangle")
-// }
-//
+/* console.log(sides); */
+if(first>=second+third||second>=first+third||third>=first+third|| (first===0||second===0||third===0)){
+output.innerHTML=("Cannot form a triangle")
+}
+
 // else if (first===second  &&  second===third){
 // output.innerHTML=("Equilateral triangle")
 // }
