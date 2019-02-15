@@ -23,8 +23,8 @@ else if (first===second  &&  first!==third || first===third  &&  first!==second 
 output.innerHTML=("Isosceles triangle")
 }
 
-// else if(first!==second && second!==third && first!==third){
-// output.innerHTML=("Scalene triangle")
-// }
+else if(first!==second && second!==third && first!==third){
+output.innerHTML=("Scalene triangle")
+}
 
 }
