@@ -19,10 +19,10 @@ else if (first===second  &&  second===third){
 output.innerHTML=("Equilateral triangle")
 }
 
-// else if (first===second  &&  first!==third || first===third  &&  first!==second || second===third  &&  second!==first){
-// output.innerHTML=("Isosceles triangle")
-// }
-//
+else if (first===second  &&  first!==third || first===third  &&  first!==second || second===third  &&  second!==first){
+output.innerHTML=("Isosceles triangle")
+}
+
 // else if(first!==second && second!==third && first!==third){
 // output.innerHTML=("Scalene triangle")
 // }
