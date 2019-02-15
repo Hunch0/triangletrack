@@ -3,6 +3,9 @@
 #### By Philip Kairu Njoroge
 ## Description
 The triangle trackers uses input fed by a user and analyzes it to determine what type of triangle can be formed from that set of dimensions. It then outputs a message telling the user the type of triangle.
+## BDD
+This shows how Behaviour Driven Development (BDD) can look like.
+The logic is divided into four sections, and each evaluates different scenarios to bring out different outcomes.
 ## Live demo
 A demonstration of how the site works can be found at: https://hunch0.github.io/calculator/
 ## Support and contact details
