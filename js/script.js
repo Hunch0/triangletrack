@@ -15,10 +15,10 @@ if(first>=second+third||second>=first+third||third>=first+third|| (first===0||se
 output.innerHTML=("Cannot form a triangle")
 }
 
-// else if (first===second  &&  second===third){
-// output.innerHTML=("Equilateral triangle")
-// }
-//
+else if (first===second  &&  second===third){
+output.innerHTML=("Equilateral triangle")
+}
+
 // else if (first===second  &&  first!==third || first===third  &&  first!==second || second===third  &&  second!==first){
 // output.innerHTML=("Isosceles triangle")
 // }
